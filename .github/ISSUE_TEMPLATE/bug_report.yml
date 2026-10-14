@@ -1,0 +1,25 @@
+name: Bug report
+description: Report a problem reading or editing a PDF.
+body:
+  - type: markdown
+    attributes:
+      value: "For vulnerabilities, follow SECURITY.md. Please remove private information from sample PDFs and screenshots."
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Leaf version, macOS version, Apple silicon or Intel, and downloaded or built from source.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, what happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample or screenshot
+      description: Attach a small sanitized PDF or screenshot if it helps. Say whether the same PDF behaves differently in Preview.

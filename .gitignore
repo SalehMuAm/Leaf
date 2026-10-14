@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+.swiftpm/
+dist/
+tmp/
+*.xcodeproj/xcuserdata/
+.env
+.env.*
+*.p12
+*.p8
+*.cer
+*.mobileprovision
